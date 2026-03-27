@@ -1,0 +1,20 @@
+---
+import BlogPage from "../../layouts/BlogPage.astro";
+import Friend from "../../components/friend/Friend.astro";
+import FriendList from "../../components/friend/FriendList.astro";
+import FriendCategoryTitle from "../../components/friend/FriendCategoryTitle.astro";
+import MarkdownBody from "../../components/MarkdownBody.astro";
+
+import * as markdownData from "./_links.md";
+---
+
+<BlogPage title="链接" description="来看看我的小伙伴们吧！">
+    <FriendList>
+        <Friend url="hhttps://gist.github.com/Benjamin-1105" name="github" description="这是一个前往gihub的链接" avatarUrl="https://pngimg.com/uploads/github/github_PNG80.png" />
+        <Friend url="https://gitee.com/moonlight-begonia" name="gitee" description="这是一个前往gitee码云的链接" avatarUrl="https://th.bing.com/th/id/ODF.KCStyvubJszELPE98QcMBA?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2"/>
+        <Friend url="https://blog.csdn.net/2301_80215560?type=blog" name="CSDN" description="这是一个前往CSDN博客的链接" avatarUrl="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/0f/d3/b6/0fd3b674-1f00-6e51-7552-3ee9414008f3/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png"/>
+    </FriendList>
+    <MarkdownBody class="mt-6">
+        <markdownData.Content />
+    </MarkdownBody>
+</BlogPage>
