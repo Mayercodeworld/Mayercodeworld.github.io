@@ -1,4 +1,3 @@
-Koi (こい, 恋) 是由 [tcdw](https://www.tcdw.net) 为他不存在的女儿制作的 [Astro](https://astro.build/) 静态博客模板。
 
 ## 特性
 

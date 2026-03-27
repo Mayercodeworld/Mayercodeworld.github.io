@@ -2,7 +2,7 @@
 // 详见 https://docs.astro.build/en/guides/images/#image--astroassets
 import authorAvatarImage from "./assets/akkarin.jpg";
 import headerImageDay from "./assets/header_day.jpg";
-import headerImageNight from "./assets/header_night.webp";
+import headerImageNight from "./assets/header_night.png";
 import githubImage from "./assets/github.svg"
 import biliImage from "./assets/bilibili.svg"
 // 网站的 <html> 语言标签
@@ -12,7 +12,7 @@ export const SITE_LANGUAGE = "en";
 export const SITE_TITLE = 'Mayer';
 
 // 网站的副标题
-export const SITE_DESCRIPTION = '一个基于 Astro 的博客站点';
+export const SITE_DESCRIPTION = '这是一个基于 Astro 的博客站点';
 
 // 博主的昵称
 export const SITE_AUTHOR_NAME = "mc";
