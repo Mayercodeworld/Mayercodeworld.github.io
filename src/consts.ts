@@ -3,18 +3,19 @@
 import authorAvatarImage from "./assets/akkarin.jpg";
 import headerImageDay from "./assets/header_day.jpg";
 import headerImageNight from "./assets/header_night.webp";
-
+import githubImage from "./assets/github.svg"
+import biliImage from "./assets/bilibili.svg"
 // 网站的 <html> 语言标签
 export const SITE_LANGUAGE = "en";
 
 // 网站名称
-export const SITE_TITLE = '北辰水墨blog';
+export const SITE_TITLE = 'Mayer';
 
 // 网站的副标题
 export const SITE_DESCRIPTION = '一个基于 Astro 的博客站点';
 
 // 博主的昵称
-export const SITE_AUTHOR_NAME = "cjs";
+export const SITE_AUTHOR_NAME = "mc";
 
 // 博主的头像
 export const SITE_AUTHOR_AVATAR = authorAvatarImage;
@@ -39,3 +40,7 @@ export const SITE_HEAD_IMAGE_NIGHT = headerImageNight;
 
 // 一页展示的博文数量
 export const BLOG_PAGINATION_SIZE = 6;
+
+export const GITHUB_IMAGE = githubImage;
+
+export const BILI_IMAGE = biliImage;

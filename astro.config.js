@@ -24,5 +24,8 @@ export default defineConfig({
 
   vite: {
     plugins: [tailwindcss()]
-  }
+  },
+  // 启用View Transitions
+  viewTransitions: true
+
 });
